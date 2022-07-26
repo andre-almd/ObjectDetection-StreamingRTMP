@@ -21,7 +21,12 @@ Neste projeto criei um servidor NGINX para conectar e receber o streaming de ví
     - Passe como parâmetro na chamada do script o caminho do seu streaming de vídeo.
     - É preciso baixar o arquivo com os pesos da rede Yolov4 e colocá-lo na pasta yolo-rtmp. O arquivo pode ser baixado [aqui](https://drive.google.com/file/d/1aed2iucZyqhB9fHyDo3a3dOzvbVYLzt-/view?usp=sharing).
 
+## Erro de conflito do Nginx com Apache
+---
+O Nginx pode dar conflito com o Apache 2 e não funcionar. Caso isso ocorra, siga os passos do arquivo 'Conflito nginx - apache2.txt'. 
+
 ## Como executar?
+---
 Com tudo pronto execute o seguinte comando:
 
         python3 rtmp.py 'seu caminho de streaming aqui'
