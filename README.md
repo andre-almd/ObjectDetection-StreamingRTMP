@@ -24,4 +24,4 @@ Neste projeto criei um servidor NGINX para conectar e receber o streaming de ví
 ## Como executar?
 Com tudo pronto execute o seguinte comando:
 
-        python3 trmp.py 'seu caminho de streaming aqui'
+        python3 rtmp.py 'seu caminho de streaming aqui'
