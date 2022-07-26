@@ -1,0 +1,11 @@
+Nginx pode dar conflito com o apache2.
+
+Se o nginx não conseguir abrir tente para o processo do apache2.
+
+Para ativar o nginx:
+	systemctl stop apache2
+	service nginx start
+
+Para desligar o nginx e ligar o apache2:
+	systemctl stop nginx
+	service apache2 start
