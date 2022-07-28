@@ -1,7 +1,7 @@
 # ObjectDetection-StreamingRTMP
 Projeto para usar a câmera de um celular conectado ao servidor **RTMP** e detectar objetos usando **YOLOv4** com **OpenCV**.
 
-![](image/nginx-rtmp.jpeg)
+![](image/nginx-rtmp.png)
 
 Neste projeto criei um servidor NGINX para conectar e receber o streaming de vídeo do celular na rede wifi. Com o streaming capturado, uso a rede de detecção de objetos YOLOv4 para detectar objetos em tempo real com OpenCV.
 
